@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.FloderName.setGeometry(QtCore.QRect(20, 10, 550, 30))
         self.FloderName.setObjectName("FloderName")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(20, 80, 81, 31))
+        self.label.setGeometry(QtCore.QRect(20, 80, 80, 30))
         self.label.setObjectName("ImgShow")
         self.verticalLayoutWidget = QtWidgets.QWidget(self.centralwidget)
         self.verticalLayoutWidget.setGeometry(QtCore.QRect(510, 110, 121, 321))
@@ -65,7 +65,7 @@ class Ui_MainWindow(object):
         self.pushButton_5.setObjectName("pushButton_5")
         self.verticalLayout.addWidget(self.pushButton_5)
         self.ImgShow = QtWidgets.QLabel(self.centralwidget)
-        self.ImgShow.setGeometry(QtCore.QRect(20, 120, 321, 341))
+        self.ImgShow.setGeometry(QtCore.QRect(20, 120, 400, 250))   #选择图片的文件一定要与label的尺寸匹配
         self.ImgShow.setObjectName("ImgShow")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
